@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Postagem</title>
+</head>
+<body>
+    <header>
+        <h1>Crie seu Post</h1>
+    </header>
+    <main>
+        <form id="postForm">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" placeholder="Título" required>
+            
+            <label for="conteudo">Conteúdo:</label>
+            <textarea id="conteudo" placeholder="Conteúdo" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <section id="resultado">
+            <h2 id="renderizador-titulo"></h2>
+            <p id="renderizador-conteudo"></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
